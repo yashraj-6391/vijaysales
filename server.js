@@ -15,6 +15,20 @@ app.get("/",(req,res)=>{
         );
 });
 
+app.get("/login",(req,res)=>{
+    res.send(
+        "<h1>Vijay Sales </h1>"
+        +"<hr/>"
+        +"<form>"
+        +"<input/>"
+        +"<br/>"
+        +"<input/>"
+        +"<button><>Login</button>"
+        +"<li>ravi tambade</li>"
+        +"</form>"
+        );
+});
+
 app.get("/aboutus",(req,res)=>{
     res.send(
         "<h1> About Vijay Sales  </h1>"
